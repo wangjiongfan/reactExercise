@@ -1,0 +1,51 @@
+#Seachbar{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: red;
+}
+#Seachbar span{
+    font-size: 0.36rem;
+}
+#Seachbar .left{
+    margin-left: 0.3rem;
+    color: white;
+}
+#Seachbar .right{
+    margin-right: 0.3rem;
+    color: white;
+}
+#Seachbar .seach{
+    flex-grow: 1;
+    width: 70%;
+    height: 0.6rem;
+
+}
+#Seachbar .seach .box{
+    display: inline-block;
+    width: 80%;
+    background: white;
+    /* padding-bottom: 0.1rem; */
+    box-sizing: border-box;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    border-radius: 0.3rem;
+}
+#Seachbar .seach .box span{
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+#Seachbar .seach .box input{
+    margin-bottom: 0.1rem;
+    outline: none;
+    border: none;
+    background: none;
+    height: 0.4rem;
+    line-height: 0.3rem;
+    width: 80%;
+}
+#Seachbar .seach .box .second{
+    color: #aaa;
+}

@@ -1,0 +1,15 @@
+#tabbar{
+    width:100%;
+    position: fixed;
+    bottom:0
+}
+#tabbar ul{
+    text-align: center;
+}
+#tabbar ul li{
+    width: 33.3333%;
+    font-size: 0.3rem;
+}
+#tabbar ul li a.red{
+    color: red;
+}
